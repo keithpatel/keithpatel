@@ -1,0 +1,38 @@
+:root {
+  --bg: #ffffff;
+  --text: #333333;
+}
+
+.dark-mode {
+  --bg: #1a1a1a;
+  --text: #ffffff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: -apple-system, sans-serif;
+  margin: 20px;
+  transition: 0.3s;
+}
+
+.tool-grid {
+  display: grid;
+  gap: 15px;
+}
+
+.tool-card {
+  padding: 20px;
+  border-radius: 10px;
+  background: rgba(0,0,0,0.05);
+  border: 1px solid rgba(0,0,0,0.1);
+}
+
+button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: none;
+  border: none;
+  font-size: 24px;
+}
