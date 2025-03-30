@@ -1,0 +1,5 @@
+title: My Tools Hub
+theme: minima
+plugins:
+  - jekyll-seo-tag
+  - jekyll-analytics
